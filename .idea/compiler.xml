@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Limit-microservices" />
+        <module name="Spring-cloud-config-erver" />
+        <module name="restfull-web-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Limit-microservices" target="17" />
+      <module name="restfull-web-api" target="19" />
+      <module name="restfull-web-service" target="17" />
+      <module name="Spring-cloud-config-erver" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Limit-microservices" options="-parameters" />
+      <module name="Spring-cloud-config-erver" options="-parameters" />
+      <module name="restfull-web-api" options="-parameters" />
+      <module name="restfull-web-service" options="-parameters" />
+    </option>
+  </component>
+</project>

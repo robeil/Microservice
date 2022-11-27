@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Limit-microservices/Limit-microservices.iml" filepath="$PROJECT_DIR$/Limit-microservices/Limit-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservice.iml" filepath="$PROJECT_DIR$/.idea/Microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-cloud-config-erver/Spring-cloud-config-erver.iml" filepath="$PROJECT_DIR$/Spring-cloud-config-erver/Spring-cloud-config-erver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restfull-web-api/restfull-web-api.iml" filepath="$PROJECT_DIR$/restfull-web-api/restfull-web-api.iml" />
+    </modules>
+  </component>
+</project>
