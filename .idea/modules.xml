@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Currency-conversion-service/Currency-conversion-service.iml" filepath="$PROJECT_DIR$/Currency-conversion-service/Currency-conversion-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Currency-exchange-service/Currency-exchange-service.iml" filepath="$PROJECT_DIR$/Currency-exchange-service/Currency-exchange-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Limit-microservices/Limit-microservices.iml" filepath="$PROJECT_DIR$/Limit-microservices/Limit-microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservice.iml" filepath="$PROJECT_DIR$/.idea/Microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-cloud-config-erver/Spring-cloud-config-erver.iml" filepath="$PROJECT_DIR$/Spring-cloud-config-erver/Spring-cloud-config-erver.iml" />

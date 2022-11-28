@@ -10,9 +10,13 @@
         <module name="Limit-microservices" />
         <module name="Spring-cloud-config-erver" />
         <module name="restfull-web-api" />
+        <module name="Currency-exchange-service" />
+        <module name="Currency-conversion-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Currency-conversion-service" target="17" />
+      <module name="Currency-exchange-service" target="17" />
       <module name="Limit-microservices" target="17" />
       <module name="restfull-web-api" target="19" />
       <module name="restfull-web-service" target="17" />
@@ -21,6 +25,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Currency-conversion-service" options="-parameters" />
+      <module name="Currency-exchange-service" options="-parameters" />
       <module name="Limit-microservices" options="-parameters" />
       <module name="Spring-cloud-config-erver" options="-parameters" />
       <module name="restfull-web-api" options="-parameters" />

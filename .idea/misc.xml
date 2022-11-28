@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/restfull-web-api/pom.xml" />
         <option value="$PROJECT_DIR$/Limit-microservices/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-cloud-config-erver/pom.xml" />
+        <option value="$PROJECT_DIR$/Currency-exchange-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Currency-conversion-service/pom.xml" />
       </list>
     </option>
   </component>
